@@ -20,6 +20,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 12rem;
 }
 .nav-logo{
     color: var(--Dark-01, #181818);
@@ -31,6 +32,7 @@ line-height: normal;
 nav > ul{
     display: flex;
     align-items: center;
+   
 }
 nav li{
     list-style: none;
@@ -39,4 +41,16 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.baneer{
+    padding: 2.37rem 2.37rem 2.37rem 12rem;
+    display: flex;
+    align-items: center;
+}
+.baneer .profile-pic{
+    width: 36.5rem;
 }
