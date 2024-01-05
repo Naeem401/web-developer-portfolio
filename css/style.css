@@ -96,7 +96,10 @@ margin-bottom: 0;
     margin-bottom: 1.87rem;
 }
 /* main section style */
-
+main{
+    max-width: 85rem;
+    margin: 0 auto;
+}
 
 /* about section style */
 .about{
@@ -104,4 +107,29 @@ margin-bottom: 0;
     border-radius: 0.625rem;
 background: #FFF8F3;
 margin: 8.12rem;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 1.875rem;
+margin-bottom: 0;
+}
+.info-description{
+    color: #474747;
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 1.875rem;
+margin-top: 0;
+}
+#what-i-do-description{
+    padding: 1.88rem 8.19rem;
 }
